@@ -1,11 +1,8 @@
 <template>
     <div class="bg-green-300">
         <VitePwaManifest />
-        <!-- <nuxt-link to="/">home</nuxt-link> -->
-        <p>home</p>
     </div>
     <div>
-
         <slot />
     </div>
 </template>

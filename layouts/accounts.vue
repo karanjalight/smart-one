@@ -1,9 +1,6 @@
 <template>
     <div>
-        <!-- <nuxt-link to="/">home</nuxt-link> -->
-        <p>accounts</p>
-    </div>
-    <div>
+        <VitePwaManifest />
         <slot />
     </div>
 </template>

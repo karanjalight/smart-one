@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VitePwaManifest />
+    <!-- <VitePwaManifest /> -->
     <p>home page</p>
     <ul>
       <li>
