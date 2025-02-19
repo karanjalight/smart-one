@@ -1,9 +1,5 @@
 <template>
-    <div>
-        <!-- <nuxt-link to="/">home</nuxt-link> -->
-        <p>accounts</p>
-    </div>
-    <div>
+    <div class="lg:bg-slate-100 bg-white">
         <slot />
     </div>
 </template>

@@ -8,13 +8,13 @@
                     <NuxtImg src="/logo-long.png" class="lg:w-[60%] w-[80%] h-32 object-cover" />
                 </div>
                 <h2 class="text-gray-800 text-2xl font-bold ">
-                    Sign in
+                    Forgot password
                 </h2>
-                <p class="text-xs border-b border-blue-200 w-full pb-2 mb-4">
-                    Connect with us in just a few seconds
+                <p class="text-xs border-b border-blue-200 w-full pb-2 mb-2">
+                    An email with a reset link will be sent
                 </p>
 
-                <label for="email-address-icon" class="block mb-2  mt-2 text-sm font-medium text-gray-700 ">
+                <label for="email-address-icon" class="block mt-5 text-sm font-medium text-gray-700 ">
                     Your
                     Email
                 </label>
@@ -33,28 +33,14 @@
                         placeholder="name@gmail.com">
                 </div>
 
-                <label for="password-icon" class="block mb-2 text-sm font-medium text-gray-700 ">
-                    Password
-                </label>
-                <div class="relative mb-2">
-                    <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" viewBox="0 0 24 24">
-                            <path fill="currentColor" fill-rule="evenodd"
-                                d="M6.75 8a5.25 5.25 0 0 1 10.335-1.313a.75.75 0 0 0 1.452-.374A6.75 6.75 0 0 0 5.25 8v2.055c-1.115.083-1.84.293-2.371.824C2 11.757 2 13.172 2 16s0 4.243.879 5.121C3.757 22 5.172 22 8 22h8c2.828 0 4.243 0 5.121-.879C22 20.243 22 18.828 22 16s0-4.243-.879-5.121C20.243 10 18.828 10 16 10H8q-.677-.001-1.25.004zM8 17a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m5-1a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </div>
-                    <input type="text" id="password"
-                        class="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  "
-                        placeholder="6 digits password">
-                </div>
-                <nuxt-link to="/accounts/forgot-password" class="text-blue-500 text-xs my-4  font-bold">
-                    Forgot password?
+                <nuxt-link to="/accounts/login" class="text-blue-500 text-xs my-4  font-bold">
+                    Back to Login
                 </nuxt-link>
                 <button type="submit" class="text-white hover:bg-gradient-to-r hover:from-indigo-950 hover:to-blue-950 focus:ring-4 mt-6 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm w-full px-5 py-2.5 text-center bg-gradient-to-l from-blue-600 to-blue-500 
                     transition-all duration-300 ease-in-out hover:shadow-lg">
-                    Sign in
+                    Send
                 </button>
+
             </div>
         </form>
         <div class="flex gap-2 items-center text-sm mb-8 justify-center text-gray-500">

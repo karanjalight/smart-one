@@ -2,7 +2,7 @@
     <div>
 
         <Head>
-            <Title>Smart One - Smart Water Meter</Title>
+            <Title>Smart One - Contact Us</Title>
         </Head>
 
         <nav
@@ -50,13 +50,13 @@
                         </li>
                         <li>
                             <nuxt-link to="/about"
-                                class="block py-2 px-3 text-blue-600 rounded md:bg-transparent md:text-blue-700 md:p-0">
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0">
                                 About
                             </nuxt-link>
                         </li>
                         <li>
                             <nuxt-link to="/contact"
-                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0">
+                                class="block py-2 px-3 text-blue-600 rounded md:bg-transparent md:text-blue-700 md:p-0">
                                 Contact
                             </nuxt-link>
                         </li>
@@ -64,94 +64,10 @@
                 </div>
             </div>
         </nav>
-        <!-- landing -->
-        
-        <!-- features -->
-        <div>
-            <div class="relative bg-gradient-to-l from-indigo-950 to-blue-600 lg:px-40 lg:py-32 py-12 lg:mt-10 mt-10">
-                <h2 class="text-center lg:text-4xl text-2xl font-semibold text-white mb-2">
-                    About Us
-                </h2>
-                <div class="overflow-x-auto lg:grid grid-cols-4  flex space-x-6 pb-4 py-5 px-5">
-                    <!-- Feature 1: Stream Music & Videos with Friends -->
-                    <div
-                        class="min-w-[250px] bg-sky-300 rounded-lg lg:p-10 p-4 text-center shadow-lg hover:scale-105 transition-transform">
-                        <div class="w-16 h-16 mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor" class="h-full w-full text-blue-950">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 4v16m8-8H4" />
-                            </svg>
-                        </div>
-                        <h3 class="lg:text-xl text-lg font-semibold text-gray-800 mb-2">
-                            Meter Platform Management
-                        </h3>
-                        <p class="text-gray-600 text-sm">
-                            lets you track how you analyse and manage your water usage
-                        </p>
-                    </div>
 
-                    <!-- Feature 2: AI-Generated Playlists -->
-                    <div
-                        class="min-w-[250px] bg-sky-300 rounded-lg lg:p-10 p-4 text-center shadow-lg hover:scale-105 transition-transform">
-                        <div class="w-16 h-16 mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor" class="h-full w-full text-blue-950">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16m-7 6h7" />
-                            </svg>
-                        </div>
-                        <h3 class="lg:text-xl text-lg font-semibold text-gray-800 mb-2">
-                            Prepaid Water Meters
-                        </h3>
-                        <p class="text-gray-600 text-sm">
-                            Top up units through mobile money platforms
-                        </p>
-                    </div>
-
-                    <!-- Feature 3: Collaborative Playlists -->
-                    <div
-                        class="min-w-[250px] bg-sky-300 rounded-lg lg:p-10 p-4 text-center shadow-lg hover:scale-105 transition-transform">
-                        <div class="w-16 h-16 mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor" class="h-full w-full text-blue-950">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 10h7m7 0h4m-7 4h7M4 6h16" />
-                            </svg>
-                        </div>
-                        <h3 class="lg:text-xl text-lg font-semibold text-gray-800 mb-2">
-                            Mpesa & Bank
-                        </h3>
-                        <p class="text-gray-600 text-sm">
-                            Easily pay for tokens using Mobile money or Bank Transfers
-                        </p>
-                    </div>
-
-                    <!-- Feature 4: Music Video Library -->
-                    <div
-                        class="min-w-[250px] bg-sky-300 rounded-lg lg:p-10 p-4 text-center shadow-lg hover:scale-105 transition-transform">
-                        <div class="w-16 h-16 mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-full w-full text-blue-950"
-                                viewBox="0 0 640 512">
-                                <path fill="currentColor"
-                                    d="M41 7C31.6-2.3 16.4-2.3 7 7s-9.3 24.6 0 34l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9zm558 0l-72 72c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9S608.3-2.4 599 7M7 505c9.4 9.4 24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L7 471c-9.4 9.4-9.4 24.6 0 33.9zm592 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-72-72c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9zM320 256a64 64 0 1 0 0-128a64 64 0 1 0 0 128m-107.9 80c-2.7 7.5-4.1 15.6-4.1 24c0 13.3 10.7 24 24 24h176c13.3 0 24-10.7 24-24c0-8.4-1.4-16.5-4.1-24c-.5-1.4-1-2.7-1.6-4c-9.4-22.3-29.8-38.9-54.3-43c-3.9-.7-7.9-1-12-1h-80c-4.1 0-8.1.3-12 1c-.8.1-1.7.3-2.5.5c-24.9 5.1-45.1 23-53.4 46.5m-36.3-112a48 48 0 1 0 0-96a48 48 0 1 0 0 96m-26.5 32c-29.4 0-53.3 23.9-53.3 53.3c0 14.7 11.9 26.7 26.7 26.7h56.1c8-34.1 32.8-61.7 65.2-73.6c-7.5-4.1-16.2-6.4-25.3-6.4h-69.3zm368 80c14.7 0 26.7-11.9 26.7-26.7c0-29.5-23.9-53.3-53.3-53.3h-69.3c-9.2 0-17.8 2.3-25.3 6.4c32.4 11.9 57.2 39.5 65.2 73.6h56.1zM464 224a48 48 0 1 0 0-96a48 48 0 1 0 0 96" />
-                            </svg>
-                        </div>
-                        <h3 class="lg:text-xl text-lg font-semibold text-gray-800 mb-2">
-                            Tenant Manager
-                        </h3>
-                        <p class="text-gray-600 text-sm">
-                            Handle all your tenants, bills and reports about your smart meters
-                        </p>
-                    </div>
-
-                    <!-- Additional Features: Repeat as needed... -->
-                </div>
-            </div>
-        </div>
-        <!-- end features -->
         <!-- advertisers -->
-        <div class="lg:py-20 py-20 px-2 w-full  h-auto flex flex-col items-center lg:justify-center  lg:mb-0 mb-0">
+        <div
+            class="lg:py-20 mt-10 py-20 px-2 w-full  h-auto flex flex-col items-center lg:justify-center  lg:mb-0 mb-0">
             <div class="carousel-slide h-20 w-full flex-shrink-0">
 
                 <h2
@@ -250,7 +166,10 @@
                                     <nuxt-link to="/about">about</nuxt-link>
                                 </li>
                                 <li class="mb-4">
-                                    <nuxt-link to="/contact">Contact Us</nuxt-link>
+                                    <nuxt-link to="/faqs">FAQs</nuxt-link>
+                                </li>
+                                <li class="mb-4">
+                                    <nuxt-link to="/faqs">Contact Us</nuxt-link>
                                 </li>
 
                             </ul>
