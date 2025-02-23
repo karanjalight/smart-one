@@ -3,23 +3,12 @@ export default defineNuxtConfig({
     baseURL: "/", // Ensure this is correctly set
   },
   modules: [
-    "@nuxtjs/tailwindcss",
+    "@nuxt/ui",
+    // "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "@vite-pwa/nuxt",
     "@nuxt/image",
   ],
-  tailwindcss: {
-    config: {
-      content: [
-        "./components/**/*.{js,vue,ts}",
-        "./layouts/**/*.vue",
-        "./pages/**/*.vue",
-        "./plugins/**/*.{js,ts}",
-        "./nuxt.config.{js,ts}",
-      ],
-      plugins: [require("flowbite/plugin")], // Move Flowbite here
-    },
-  },
   image: {
     // Image optimization options
   },
