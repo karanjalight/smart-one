@@ -1,46 +1,22 @@
-<script setup lang="ts">
-const people = [{
-  id: 1,
-  name: 'Lindsay Walton',
-  title: 'Front-end Developer',
-  email: 'lindsay.walton@example.com',
-  role: 'Member'
-}, {
-  id: 2,
-  name: 'Courtney Henry',
-  title: 'Designer',
-  email: 'courtney.henry@example.com',
-  role: 'Admin'
-}, {
-  id: 3,
-  name: 'Tom Cook',
-  title: 'Director of Product',
-  email: 'tom.cook@example.com',
-  role: 'Member'
-}, {
-  id: 4,
-  name: 'Whitney Francis',
-  title: 'Copywriter',
-  email: 'whitney.francis@example.com',
-  role: 'Admin'
-}, {
-  id: 5,
-  name: 'Leonard Krasner',
-  title: 'Senior Designer',
-  email: 'leonard.krasner@example.com',
-  role: 'Owner'
-}, {
-  id: 6,
-  name: 'Floyd Miles',
-  title: 'Principal Designer',
-  email: 'floyd.miles@example.com',
-  role: 'Member'
-}]
+<script setup>
+import { useAuthStore } from "@/stores/auth";
+import { computed, onMounted } from "vue";
 
-const selected = ref([people[1]])
+const authStore = useAuthStore();
+
+// Load user data from localStorage when the component mounts
+onMounted(() => {
+  authStore.loadAuthData();
+});
+
+console.log('bugs')
+const username = computed(() => authStore.user?.username || "Guest");
+const email = computed(() => authStore.user?.email || "Guest");
 </script>
 
 <template>
-  <UTable v-model="selected" :rows="people" />
+  <div>
+      {{ username }}
+      {{ authStore.user }}
+  </div>
 </template>
-
