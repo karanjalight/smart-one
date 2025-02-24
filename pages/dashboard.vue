@@ -3,6 +3,7 @@
         <div class="font-bold text-sky-600 border-b  pb-2">
             Dashboard
         </div>
+        <UserProfile />
         <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 mt-2 lg:mx-0 mx-5">
             <div
                 class="flex items-center lg:h-20 h-28 bg-white border border-gray-300 rounded-2xl  md:flex-row md:max-w-xl hover:bg-sky-100">
@@ -78,16 +79,24 @@
 
         </div>
     </div>
+    <!-- <div>
+        <TableSort />
+    </div> -->
 </template>
-
 <script setup>
+import { useAuthStore } from "@/stores/auth";
+import { onMounted } from "vue";
 
+// Load user data when the dashboard mounts
+const authStore = useAuthStore()    ;
+onMounted(() => {
+  authStore.loadAuthData();
+});
+
+// Define the page layout
+definePageMeta({
+  layout: "dashboard",
+});
 </script>
 
 <style lang="scss" scoped></style>
-<script setup>
-definePageMeta({
-    layout: 'dashboard'
-
-})
-</script>
